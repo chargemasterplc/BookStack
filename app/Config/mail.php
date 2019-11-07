@@ -22,8 +22,8 @@ return [
 
     // Global "From" address & name
     'from' => [
-        'address' => env('MAIL_FROM', 'mail@bookstackapp.com'),
-        'name' => env('MAIL_FROM_NAME', 'BookStack')
+        'address' => env('MAIL_FROM', 'wiki@bpchargemaster.com'),
+        'name' => env('MAIL_FROM_NAME', 'Wiki')
     ],
 
     // Email encryption protocol
