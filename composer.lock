@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c156e1738dbab2a57f9a926d9a9a5a6a",
+    "content-hash": "2a97edc9aef522d69d77a5ca8eeea20f",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -4167,6 +4167,59 @@
                 "dump"
             ],
             "time": "2019-08-26T08:26:39+00:00"
+        },
+        {
+            "name": "therobfonz/laravel-mandrill-driver",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/therobfonz/laravel-mandrill-driver.git",
+                "reference": "ecec67a6f1a6febf8c6a976d5b07990dedd100ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/therobfonz/laravel-mandrill-driver/zipball/ecec67a6f1a6febf8c6a976d5b07990dedd100ec",
+                "reference": "ecec67a6f1a6febf8c6a976d5b07990dedd100ec",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.3",
+                "illuminate/support": "^6.0",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "mockery/mockery": "~1.0",
+                "phpunit/phpunit": "~7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "LaravelMandrill\\MandrillServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LaravelMandrill\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Fonseca",
+                    "email": "robfonseca@gmail.com"
+                }
+            ],
+            "description": "Mandrill Driver for Laravel 6+",
+            "keywords": [
+                "laravel",
+                "mandrill"
+            ],
+            "time": "2019-09-07T19:59:02+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
